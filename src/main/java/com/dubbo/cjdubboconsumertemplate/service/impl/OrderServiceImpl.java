@@ -28,7 +28,8 @@ public class OrderServiceImpl implements OrderService {
 //	@Reference(loadbalance="random",timeout=1000) //dubbo直连
 
 //	@Reference(version = "1.0.0", url = "dubbo://localhost:20881")
-	@Reference(version = "1.0.0")
+//	@Reference(version = "1.0.0")
+	@Reference(version = "2.0.0")
 	UserService userService;
 
 //	@DubboReference(version = "1.0.0", url = "dubbo://172.16.207.221:2181")
